@@ -1,8 +1,6 @@
 function makeTransaction(quantity, pricePerDroid) {
-    // Обчислення загальної вартості замовлення
     const totalPrice = quantity * pricePerDroid;
 
-    // Формування та повернення рядка з повідомленням
     return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
 }
 
